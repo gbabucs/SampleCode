@@ -19,6 +19,7 @@
 		1B2992861672116000AB2428 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2992851672116000AB2428 /* ViewController.m */; };
 		1B2992891672116000AB2428 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B2992871672116000AB2428 /* ViewController_iPhone.xib */; };
 		1B29928C1672116000AB2428 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B29928A1672116000AB2428 /* ViewController_iPad.xib */; };
+		1B2992941672291200AB2428 /* Interpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2992931672291200AB2428 /* Interpreter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		1B2992851672116000AB2428 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B2992881672116000AB2428 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		1B29928B1672116000AB2428 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		1B2992921672291200AB2428 /* Interpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpreter.h; sourceTree = "<group>"; };
+		1B2992931672291200AB2428 /* Interpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interpreter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		1B2992721672115F00AB2428 /* SampleCode */ = {
 			isa = PBXGroup;
 			children = (
+				1B2992921672291200AB2428 /* Interpreter.h */,
+				1B2992931672291200AB2428 /* Interpreter.m */,
 				1B29927B1672116000AB2428 /* AppDelegate.h */,
 				1B29927C1672116000AB2428 /* AppDelegate.m */,
 				1B2992841672116000AB2428 /* ViewController.h */,
@@ -180,6 +185,7 @@
 				1B2992791672115F00AB2428 /* main.m in Sources */,
 				1B29927D1672116000AB2428 /* AppDelegate.m in Sources */,
 				1B2992861672116000AB2428 /* ViewController.m in Sources */,
+				1B2992941672291200AB2428 /* Interpreter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

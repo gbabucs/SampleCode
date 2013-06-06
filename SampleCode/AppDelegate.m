@@ -11,11 +11,11 @@
 #import "ViewController.h"
 
 @implementation AppDelegate
-
+@synthesize window,viewController;
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    self.window=nil;
+    self.viewController=nil;
     [super dealloc];
 }
 
@@ -29,9 +29,13 @@
         self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
     }
     self.window.rootViewController = self.viewController;
+    
+    
+      
     [self.window makeKeyAndVisible];
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

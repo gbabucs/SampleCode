@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Interpreter.h"
 @interface ViewController : UIViewController
+{
+    UITextView *inputView;
+    UITextView *outputView;
+    UIButton *buttonSubmit;
+}
 
 @end
